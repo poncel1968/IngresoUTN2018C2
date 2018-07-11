@@ -5,7 +5,7 @@ function mostrar()
 var nota;
 var comentario;
 
-nota = Math.round(Math.random()*10);
+nota = Math.floor(Math.random()*10 + 1  ) ;
 
 if (nota < 4 )
 {
