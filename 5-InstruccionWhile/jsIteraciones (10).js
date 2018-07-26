@@ -21,6 +21,7 @@ var cantpares = 0;
 var numero;
 var modulo;
 var respuesta = "si";
+var promedio;
 
 while(respuesta == "si"){
 
@@ -55,12 +56,34 @@ while(respuesta == "si"){
 
 
 
-    respuesta = ("Desea ingresar otro numero?");
+    respuesta = prompt("Desea ingresar otro numero?");
 
 
 }
 
+document.write("La suma de los negativos es : </br>");
+document.write(sumanegativo);
+document.write("</br>");
+document.write("La suma de los positivos es : </br>");
+document.write(sumapositivo);
+document.write("</br>");
+document.write("La cantidad de negativos es : </br>");
+document.write(cantnegativos);
+document.write("</br>");
+document.write("La cantidad de positivos es : </br>");
+document.write(cantpositivos);
+document.write("</br>");
+document.write("La cantidad de ceros es : </br>");
+document.write(cantceros);
+document.write("</br>");
+document.write("La cantidad de numeros pares es : </br>");
+document.write(cantpares);
+document.write("</br>");
 
+document.write("El promedio de positivos es : </br>");
+promedio=sumapositivo/cantpositivos;
+document.write(promedio);
+document.write("</br>");
 
 
 

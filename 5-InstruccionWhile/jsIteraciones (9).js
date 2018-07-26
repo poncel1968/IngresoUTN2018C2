@@ -24,7 +24,7 @@ function mostrar()
 				maximo=numero
 			}
 			
-			else if (numero <minimo)
+			if (numero <minimo)
 			{
 
 				minimo= numero	
