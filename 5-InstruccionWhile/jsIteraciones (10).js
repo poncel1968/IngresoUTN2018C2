@@ -20,10 +20,10 @@ var cantceros = 0;
 var cantpares = 0;
 var numero;
 var modulo;
-var respuesta = "si";
-var promedio;
+var respuesta = "s";
+var promedio = 0;
 
-while(respuesta == "si"){
+do{
 
     numero = parseInt(prompt("Ingrese un numero -->"));
 
@@ -59,7 +59,7 @@ while(respuesta == "si"){
     respuesta = prompt("Desea ingresar otro numero?");
 
 
-}
+}while(respuesta == "s");
 
 document.write("La suma de los negativos es : </br>");
 document.write(sumanegativo);
@@ -79,12 +79,20 @@ document.write("</br>");
 document.write("La cantidad de numeros pares es : </br>");
 document.write(cantpares);
 document.write("</br>");
-
 document.write("El promedio de positivos es : </br>");
-promedio=sumapositivo/cantpositivos;
+if (cantpositivos != 0){
+    promedio=sumapositivo/cantpositivos;
+}
 document.write(promedio);
 document.write("</br>");
-
+document.write("El promedio de negativos es : </br>");
+promedio=sumanegativo/cantnegativos;
+promedio = 0;
+if (cantnegativos != 0){
+    promedio=sumanegativo/cantnegativos;
+}
+document.write(promedio);
+document.write("</br>");
 
 
 
