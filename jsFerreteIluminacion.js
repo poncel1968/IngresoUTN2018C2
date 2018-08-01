@@ -12,12 +12,16 @@ function CalcularPrecio ()
 {
  	
 
-var cantidad = parseInt(document.getElementById("Cantidad").value);
-var marca = document.getElementById("Marca").value;
+var cantidad;
+var marca;
 var porDesc = 0;
 var precio = 35;
 var precioFinal;
 var iibb;
+
+
+cantidad = parseInt(document.getElementById("Cantidad").value)
+document.getElementById("Marca").value
 
 switch (cantidad)
 {
