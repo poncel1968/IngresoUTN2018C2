@@ -68,27 +68,19 @@ function mostrar()
          letraminimo=letra;
 
          flag=1;
-
-
      }
      
      
+     respuesta=prompt("Desea continuar ('no' para salir)");
      
 
-        respuesta=prompt("Desea continuar ('no' para salir)");
-     
-
-
-}
+}//end while  
 
 
 
 
 
+ }   //end function  
 
 
 
- }//end while       
-
-
-}
