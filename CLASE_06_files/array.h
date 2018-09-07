@@ -10,6 +10,7 @@
     int array_ordenar(int* pArray, int limite,int tipoOrden);
     int array_minimoDesde(int* pArray, int limite, int desde,int* pMinimo, int* pIndiceMinimo);
     int array_maximoDesde(int* pArray, int limite, int desde,int* pMaximo, int* pIndiceMaximo);
+    void array_swap(int* elementoA,int* elementoB);
 
 #endif // UTN_H_INCLUDED
 

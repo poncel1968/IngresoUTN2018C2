@@ -73,7 +73,6 @@ int array_init(int* pArray, int limite, int valor)
         retorno = 0;
     }
     return retorno;
-
 }
 
 
@@ -105,8 +104,6 @@ int array_ordenar(int* pArray, int limite,int tipoOrden)
                 auxiliarValor=pArray[j];
                 pArray[j]=maximoValor;
                 pArray[indiceMaximo]=auxiliarValor;
-
-
             }
 
          }
@@ -135,12 +132,20 @@ int array_minimoDesde(int* pArray, int limite, int desde,int* pMinimo, int* pInd
         retorno = 0;
         *pMinimo=auxiliarValorMinimo;
         *pIndiceMinimo=auxiliarIndiceMinimo;
-
-
     }
     return retorno;
+}
+
+void array_swap(int* elementoA,int* elementoB)
+{
+
+    int auxiliar;
+    auxiliar=*elementoB;
+    *elementoA= *elementoB;
+    *elementoB=auxiliar;
 
 }
+
 
 
 int array_maximoDesde(int* pArray, int limite, int desde,int* pMaximo, int* pIndiceMaximo)

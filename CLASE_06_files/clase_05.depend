@@ -32,3 +32,24 @@
 	<stdlib.h>
 	"utn.h"
 
+1536278646 source:/home/alumno/Descargas/clase6/CLASE_06_files/array.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"array.h"
+
+1535674282 /home/alumno/Descargas/clase6/CLASE_06_files/utn.h
+
+1536278229 /home/alumno/Descargas/clase6/CLASE_06_files/array.h
+
+1536278948 source:/home/alumno/Descargas/clase6/CLASE_06_files/main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"array.h"
+
+1536188598 source:/home/alumno/Descargas/clase6/CLASE_06_files/utn.c
+	<stdio_ext.h>
+	<stdlib.h>
+	"utn.h"
+
